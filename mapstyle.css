@@ -1,0 +1,46 @@
+body, html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    max-width: 700px;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 1.5rem;
+    margin: 30px;
+}
+
+#map {
+    width: 100%;
+    height: auto;
+}
+
+#info {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin: 20px;
+    }
+}
