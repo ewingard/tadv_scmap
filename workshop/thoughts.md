@@ -8,3 +8,6 @@
 
 - Richland County resources - build out the rest of the state as we get more info
     - Excel/SQL database with resources, move page over on-click to VIEW resources
+
+Resources:
+- https://www.image-map.net/
